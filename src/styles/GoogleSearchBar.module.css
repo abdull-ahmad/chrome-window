@@ -1,0 +1,46 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 480px;
+  max-width: 90vw;
+  padding: 0 12px;
+  background: white;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+  height: 48px;
+  margin: 0 auto;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 0 12px;
+  background: transparent;
+}
+
+.icon {
+  color: #5f6368;
+  font-size: 20px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.aiButton {
+  margin-left: 8px;
+  padding: 6px 16px;
+  border-radius: 18px;
+  border: none;
+  background: #4285f4;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.aiButton:hover {
+  background: #3367d6;
+}
