@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const useTabs = () => {
-  const [tabs] = useState(['Tab 1', 'Tab 2']);
+  const [tabs] = useState(['New Tab', 'New Tab']);
   const [activeTab, setActiveTab] = useState(0);
 
   return { tabs, activeTab, setActiveTab };

@@ -16,7 +16,7 @@ function Tabs() {
           <span style={{ paddingLeft: '8px', paddingRight: '4px', verticalAlign: 'middle', display: 'inline-block' }}>
             <FaChrome size={16} />
           </span>
-          <span style={{ marginLeft: '8px' }}>New Tab</span>
+          <span style={{ marginLeft: '8px' }}>{tab}</span>
         </div>
       ))}
       {/* + icon after second tab */}
